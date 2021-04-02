@@ -1,0 +1,12 @@
+{
+  "name": "node14-unknown-version",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "bazelisk build //..."
+  },
+  "devDependencies": {
+    "@bazel/bazelisk": "^1.7.5"
+  }
+}
